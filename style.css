@@ -1,0 +1,340 @@
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Allura:regular);
+
+/* ------------------------------------------- */
+*{
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    background-color: rgb(215, 215, 215);
+    padding: 32px;
+}
+
+.txtstyle{
+    font-family: Allura, serif;
+}
+
+body{
+    font-family: Poppins, sans-serif;
+}
+
+#Prim-Container{
+    background-color: white;
+    height: 100%;
+    width: 100%;
+}
+
+
+/* ---------------- Header -------------------- */
+.navbar{
+    /* background-color:  orange; */
+    padding: 24px 24px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   margin-bottom:8px; 
+}
+
+.logo{
+    /* background-color: red; */
+    font-family: Allura, serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: rgb(90,41,24);
+}
+
+.mainmenu{
+    /* background-color: blue; */
+    padding: 10px;
+    width: 70%;
+}
+
+.mainmenu ul{
+    /* background-color: blueviolet; */
+    list-style-type: none;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+/* ---------------- 1 carosel -------------------- */
+
+/* -------------------------------------------------------- */
+
+
+/* ---------------- 2 About Company -------------------- */
+.about-container{
+    /* background-color: red; */
+    padding: 48px 0px;
+
+    display: flex;
+}
+
+.about-txt{
+    /* background-color: rgb(205, 159, 74); */
+    width: 50%;
+    padding: 32px 64px;
+}
+
+.about-txt h1{
+    font-size: 46px;
+    font-weight: 600;
+    color: rgb(62, 27, 15);
+    
+}
+
+.about-txt p{
+    color: rgb(112, 112, 112);
+}
+
+.about-txt h3{
+    font-size: 28px;
+}
+
+.about-pic{
+    /* background-color: greenyellow; */
+    width: 50%;
+    padding: 32px;
+}
+
+/* ---------------- 3 Our chocolet products -------------------- */
+.ourchoco-container{
+    /* background-color: brown; */
+}
+
+.ourchoco-container h1{
+    font-size:46px ;
+    font-weight: 600;
+    color: rgb(62, 27, 15);
+}
+
+.ourchoco-container p{
+    margin-top: -12px;
+}
+
+.ourchoco-products{
+    /* background-color: aqua; */
+    padding: 10px;
+    margin-top: 16px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ourchoco-products .product1{
+    border: 1px solid black;
+    width:200px ;
+    height: 280px;
+    padding: 10px;
+    margin-right: 30px;
+}
+
+
+/* -------------------- 4 offers in chocolets -------------------------- */
+.offer-container1{
+    height: 660px;
+}
+
+.offer-container{
+    /* background-color: aqua; */
+    text-align: center;
+    border: 1px solid black;
+    margin: 64px 64px; 
+    height: 500px;
+}
+
+
+.offer-text{
+    /* background-color: red; */
+    margin-bottom: 24px;
+    padding: 32px 0px 16px 0px;
+    color: rgb(62, 27, 15);
+}
+
+.offer-text h1{
+    font-size:46px ;
+    font-weight: 600;
+}
+
+.offer-text h2{
+    font-size:28px ;
+    font-weight: 600;
+    margin-top: -10px;
+    margin-bottom: 32px;
+}
+
+.offer-text .btn{
+    background-color: rgb(90,41,24);
+    color: white;
+    padding: 10px 20px;
+}
+.offer-container .link{
+    font-size: 22px;
+    font-weight: 600;
+}
+
+/* -------------------- 5 Testimonial -------------------------- */
+.testimonial-container{
+    /* background-color: red; */
+    margin: 48px 0px;
+    padding: 10px;
+
+    display: flex;
+}
+
+.testimonial-pic{
+    /* background-color: blue; */
+    width: 50%;
+    padding-top: 72px;
+    padding-left: 48px;
+    
+}
+.testimonial-pic img{
+    width: 380px;
+    height: 600px;
+    /* background-color: red; */
+    
+}
+
+.testimonial-text{
+    background-color: rgb(94, 43, 27);
+    width: 50%;
+    padding: 56px 0px ;
+    margin-right: 48px;
+}
+
+.testimonial-text h1{
+    /* background-color: blueviolet; */
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    margin-left: 72px;
+    margin-bottom: 40px;
+}
+
+.testimonial1{
+    /* background-color: rgb(169, 49, 49); */
+    display: flex;
+}
+
+.testimonial1 img{
+    height: 160px;
+    margin-left: -24px;
+
+}
+
+.testimonial1-text{
+    /* background-color: wheat; */
+    margin-left: 32px;
+    margin-right: 160px;
+    padding-top: 40px;
+    color: white;
+}
+
+.testimonial1-text h2{
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+/* ---------------- footer --------------------------------------------------- */
+.contact-container{
+    background-color: red;
+   
+}
+
+
+/* ---------------- footer --------------------------------------------------- */
+.footer-container{
+    background-color: aqua;
+    margin: 48px 0px;
+    padding: 10px;
+}
+
+.footer-second{
+    background-color: blueviolet;
+    padding :4px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.foot-menu{
+    background-color: aquamarine;
+    width: 25%;
+    
+}
+
+.foot-menu h3{
+    background-color: red;
+    font-weight: 600;
+
+}
+.foot-menu ul{
+    background-color: azure;
+    font-size: 14px;
+}
+
+.foot-instagram{
+    background-color: red;
+    width: 25%;
+}
+.foot-instagram h3{
+    background-color: blue;
+    font-weight: 600;
+
+}
+.foot-instagram ul{
+    background-color: rgb(148, 148, 225);
+}
+
+.foot-company{
+    background-color: brown;
+    width: 25%;
+}
+.foot-company h3{
+    font-weight: 600;
+}
+
+.foot-contactus{
+    background-color: blue;
+    width: 25%;
+}
+.foot-contactus h3{
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+/* ---------------- Header -------------------- */
+
+/* ---------------- Header -------------------- */
+/* ---------------- Header -------------------- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
